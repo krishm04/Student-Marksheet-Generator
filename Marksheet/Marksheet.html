@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marksheet Generator</title>
+    <link  rel="stylesheet" href="marksheet.css" /> 
+</head>
+<body>
+    <div class="all">
+        <div class="allInpute">
+        <h1>Student Marksheet Generator</h1>
+        <form>
+            <div class="input">
+                <div class="input1">
+                    <h2>Name :</h2>
+                    <input  type="text" placeholder="Enter Student Name" />
+                </div>
+                <div class="input2">
+                    <h2>College Name :</h2>
+                    <input type="text" placeholder="Enter College Name" />
+                </div>
+                <div class="input3">
+                    <h2>Enrollment No.:</h2>
+                    <input type="text" placeholder="Enter Enrollment Number" />
+                </div>                
+            </div>
+        </div>
+            <div class="allMarks">
+            <div class="marks1 marks">
+                <h3>1st Language</h3>
+                <input placeholder="Marks" class="quantity" type="number" min="0" max="100">
+            </div>
+            <div class="marks2 marks">
+                <h3>2nd Language</h3>
+                <input placeholder="Marks" class="quantity"  type="number" min="0" max="100">
+            </div>
+            <div class="marks3 marks">
+                <h3>Maths</h3>
+                <input  placeholder="Marks" class="quantity" type="number" min="0" max="100"  >
+            </div>
+            <div class="marks4 marks">
+                <h3>History</h3>
+                <input placeholder="Marks" class="quantity"  type="number" min="0" max="100">
+            </div>
+            <div class="marks5 marks">
+                <h3>Science</h3>
+                <input  placeholder="Marks" class="quantity" type="number" min="0" max="100">
+            </div>
+            </div>
+            <div class="submit">
+                <button type="button"class="btn1 btn">Claculate Marks</button>
+                <button type="reset" class="btn2 btn">Reset</button>
+            </div>
+            <div class="total">
+                <div class="show-marks">
+                    <h3>0/500</h3>
+                </div>
+            </div>
+            <div class="result">
+                <div class="show">
+                    
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="marksheet.js"></script>
+</body>
+</html>

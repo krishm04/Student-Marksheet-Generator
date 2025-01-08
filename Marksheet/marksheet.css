@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(62, 169, 245);
+    display: grid;
+    align-self: center;
+    justify-content: center;
+}
+.all{
+    background-color: rgb(252, 213, 213);
+    padding: 20px;
+    border-radius: 10px;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    width: 600px;
+}
+.input1,.input2,.input3{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 900;
+}
+input[type="text"] {
+    width: 400px; 
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+input[type="number"] {
+    font-size: 1rem;
+    margin: 10px;
+    padding: 5px;
+}
+.quantity{
+    width: 200px;
+}
+.allMarks{
+    border-radius: 12px;
+}
+.marks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.submit{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.btn1, .btn2 {
+    padding: 10px 50px; 
+    background-color: #023871;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn1:hover, .btn2:hover {
+    color: white;
+    background-color: black; 
+}
+.show-marks h3 {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.show-marks{
+    background-color: rgb(255, 192, 109);
+    border-radius: 7px;
+}
