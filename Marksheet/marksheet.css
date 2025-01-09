@@ -72,3 +72,9 @@ input[type="number"] {
     background-color: rgb(255, 192, 109);
     border-radius: 7px;
 }
+.result{
+    background-color: rgb(156, 252, 156);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
