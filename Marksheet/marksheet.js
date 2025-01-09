@@ -36,6 +36,11 @@ function gradeCalculation(pr)
 let btn = document.querySelector(".btn1");
 let add = document.querySelector(".show");
 btn.addEventListener("click",()=>{
+    // for heading of final result
+    let h2 = document.createElement("h2");
+    h2.textContent = "Final Marksheet :";
+    add.appendChild(h2);
+    
     const studentName = document.querySelector(".input1 input").value;
     let p1 = document.createElement("p");
     p1.textContent = `Name : ${studentName}`;
